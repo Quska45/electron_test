@@ -19,7 +19,9 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^10.1.5",
-    "electron-builder": "^22.9.1"
+    "electron-builder": "^22.9.1",
+    "electron-log": "^4.3.0",
+    "electron-updater": "^4.3.5"
   },
   "build": {
     "productName": "HelloElectron",
@@ -47,5 +49,8 @@
       "output": "./dist/",
       "app": "."
     }
+  },
+  "dependencies": {
+    "requirejs": "^2.3.6"
   }
 }
